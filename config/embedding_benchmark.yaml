@@ -1,0 +1,22 @@
+node_lines:
+- node_line_name: retrieve_node_line
+  nodes:
+    - node_type: retrieval
+      strategy:
+        metrics: [retrieval_f1, retrieval_recall, retrieval_precision,
+                  retrieval_map, retrieval_mrr, retrieval_ndcg]
+      top_k: [1, 3, 5, 10, 50]
+      modules:
+        - module_type: vectordb
+          embedding_model:
+          - openai
+          - openai_embed_3_small
+          - openai_embed_3_large
+          - upstage_embed
+          - cohere_embed
+          - ko-sroberta-multitask # jhgan/ko-sroberta-multitask
+          - KoSimCSE-roberta # BM-K/KoSimCSE-roberta
+          - paraphrase-multilingual-mpnet-base-v2 # sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+          - paraphrase-multilingual-MiniLM-L12-v2 # sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+          - multilingual-e5-large-instruct # intfloat/multilingual-e5-large-instruct
+          - bge-multilingual-gemma2 # BAAI/bge-multilingual-gemma2
