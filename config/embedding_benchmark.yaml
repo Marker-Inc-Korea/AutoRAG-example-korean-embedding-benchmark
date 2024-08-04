@@ -19,4 +19,3 @@ node_lines:
           - paraphrase-multilingual-mpnet-base-v2 # sentence-transformers/paraphrase-multilingual-mpnet-base-v2
           - paraphrase-multilingual-MiniLM-L12-v2 # sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
           - multilingual-e5-large-instruct # intfloat/multilingual-e5-large-instruct
-          - bge-multilingual-gemma2 # BAAI/bge-multilingual-gemma2

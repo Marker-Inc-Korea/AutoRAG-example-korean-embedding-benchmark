@@ -31,8 +31,6 @@ def main(config, qa_data_path, corpus_data_path, project_dir):
         HuggingFaceEmbedding, model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     autorag.embedding_models['multilingual-e5-large-instruct'] = autorag.LazyInit(
         HuggingFaceEmbedding, model_name="intfloat/multilingual-e5-large-instruct")
-    autorag.embedding_models['bge-multilingual-gemma2'] = autorag.LazyInit(
-        HuggingFaceEmbedding, model_name="BAAI/bge-multilingual-gemma2")
     autorag.embedding_models['upstage_embed'] = autorag.LazyInit(UpstageEmbedding)
     autorag.embedding_models['cohere_embed'] = autorag.LazyInit(CohereEmbedding, model_name="embed-multilingual-v3.0")
 
