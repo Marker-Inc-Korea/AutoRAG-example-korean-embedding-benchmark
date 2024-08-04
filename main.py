@@ -32,7 +32,8 @@ def main(config, qa_data_path, corpus_data_path, project_dir):
     autorag.embedding_models['multilingual-e5-large-instruct'] = autorag.LazyInit(
         HuggingFaceEmbedding, model_name="intfloat/multilingual-e5-large-instruct")
     autorag.embedding_models['upstage_embed'] = autorag.LazyInit(UpstageEmbedding)
-    autorag.embedding_models['cohere_embed'] = autorag.LazyInit(CohereEmbedding, model_name="embed-multilingual-v3.0")
+    autorag.embedding_models['cohere_embed'] = autorag.LazyInit(CohereEmbedding, model_name="embed-multilingual-v3.0",
+                                                                api_key=os.getenv('COHERE_API_KEY'))
 
     if not os.path.exists(project_dir):
         os.makedirs(project_dir)
