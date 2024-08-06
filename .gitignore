@@ -164,3 +164,5 @@ benchmark/resources/
 
 data/**/*.csv
 data/*.csv
+
+project_dir/
