@@ -101,6 +101,8 @@ With [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG), you can make this k
 | kf-deberta-multitask                  | 0.0351     | 0.8947     | 0.0179     | 0.0228     | 0.0228     | 0.1654     |
 | gte-multilingual-base                 | **0.0392** | **1.0000** | **0.0200** | 0.0259     | 0.0259     | **0.1834** |
 
+# Installation
+
 ```bash
 pip install -r requirements.txt
 ```
