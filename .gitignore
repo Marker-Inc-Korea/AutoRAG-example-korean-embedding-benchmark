@@ -164,3 +164,4 @@ benchmark/resources/
 
 data/**/*.csv
 data/*.csv
+.DS_Store
