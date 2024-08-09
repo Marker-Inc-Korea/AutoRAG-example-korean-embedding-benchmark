@@ -34,10 +34,13 @@ def main(config, qa_data_path, corpus_data_path, project_dir):
     autorag.embedding_models['upstage_embed'] = autorag.LazyInit(UpstageEmbedding)
     autorag.embedding_models['cohere_embed'] = autorag.LazyInit(CohereEmbedding, model_name="embed-multilingual-v3.0",
                                                                 api_key=os.getenv('COHERE_API_KEY'))
-    autorag.embedding_models['KU-HIAI-ONTHEIT-large-v1.1'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="KU-HIAI-ONTHEIT/ontheit-large-v1_1")
-    autorag.embedding_models['KU-HIAI-ONTHEIT-large-v1'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="KU-HIAI-ONTHEIT/ontheit-large-v1")
-    autorag.embedding_models['kf-deberta-multitask'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="upskyy/kf-deberta-multitask")
-    autorag.embedding_models['gte-multilingual-base'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="Alibaba-NLP/gte-multilingual-base", trust_remote_code=True)
+    # autorag.embedding_models['KU-HIAI-ONTHEIT-large-v1.1'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="KU-HIAI-ONTHEIT/ontheit-large-v1_1")
+    # autorag.embedding_models['KU-HIAI-ONTHEIT-large-v1'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="KU-HIAI-ONTHEIT/ontheit-large-v1")
+    autorag.embedding_models['kf-deberta-multitask'] = autorag.LazyInit(HuggingFaceEmbedding,
+                                                                        model_name="upskyy/kf-deberta-multitask")
+    autorag.embedding_models['gte-multilingual-base'] = autorag.LazyInit(HuggingFaceEmbedding,
+                                                                         model_name="Alibaba-NLP/gte-multilingual-base",
+                                                                         trust_remote_code=True)
 
     if not os.path.exists(project_dir):
         os.makedirs(project_dir)
