@@ -9,13 +9,17 @@ node_lines:
       modules:
         - module_type: vectordb
           embedding_model:
-          - openai
-          - openai_embed_3_small
-          - openai_embed_3_large
-          - upstage_embed
-          - cohere_embed
-          - ko-sroberta-multitask # jhgan/ko-sroberta-multitask
-          - KoSimCSE-roberta # BM-K/KoSimCSE-roberta
-          - paraphrase-multilingual-mpnet-base-v2 # sentence-transformers/paraphrase-multilingual-mpnet-base-v2
-          - paraphrase-multilingual-MiniLM-L12-v2 # sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
-          - multilingual-e5-large-instruct # intfloat/multilingual-e5-large-instruct
+            - openai
+            - openai_embed_3_small
+            - openai_embed_3_large
+            - upstage_embed
+            - cohere_embed
+            - ko-sroberta-multitask # jhgan/ko-sroberta-multitask
+            - KoSimCSE-roberta # BM-K/KoSimCSE-roberta
+            - paraphrase-multilingual-mpnet-base-v2 # sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+            - paraphrase-multilingual-MiniLM-L12-v2 # sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+            - multilingual-e5-large-instruct # intfloat/multilingual-e5-large-instruct
+            - KU-HIAI-ONTHEIT-large-v1 # KU-HIAI-ONTHEIT/ontheit-large-v1 (private)
+            - KU-HIAI-ONTHEIT-large-v1.1 # KU-HIAI-ONTHEIT/ontheit-large-v1_1 (private)
+            - kf-deberta-multitask # upskyy/kf-deberta-multitask
+            - gte-multilingual-base # Alibaba-NLP/gte-multilingual-base
