@@ -15,7 +15,7 @@ With [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG), you can make this k
 | Cohere embed-multilingual-v3.0        | 0.3596     | 0.3596     | 0.3596     | 0.3596     | 0.3596     | 0.3596     |
 | openai ada 002                        | 0.4737     | 0.4737     | 0.4737     | 0.4737     | 0.4737     | 0.4737     |
 | multilingual-e5-large-instruct        | 0.4649     | 0.4649     | 0.4649     | 0.4649     | 0.4649     | 0.4649     |
-| Upstage Embedding                     | **0.6579** | **0.6579** | **0.6579** | **0.6579** | **0.6579** | **0.6579** |
+| Upstage Embedding                     | 0.6579     | 0.6579     | 0.6579     | 0.6579     | 0.6579     | 0.6579     |
 | paraphrase-multilingual-MiniLM-L12-v2 | 0.2982     | 0.2982     | 0.2982     | 0.2982     | 0.2982     | 0.2982     |
 | openai_embed_3_small                  | 0.5439     | 0.5439     | 0.5439     | 0.5439     | 0.5439     | 0.5439     |
 | ko-sroberta-multitask                 | 0.4211     | 0.4211     | 0.4211     | 0.4211     | 0.4211     | 0.4211     |
@@ -34,7 +34,7 @@ With [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG), you can make this k
 | Cohere embed-multilingual-v3.0        | 0.2851     | 0.5702     | 0.1901     | 0.2515     | 0.2515     | 0.3321     |
 | openai ada 002                        | 0.3553     | 0.7105     | 0.2368     | 0.3202     | 0.3202     | 0.4186     |
 | multilingual-e5-large-instruct        | 0.3333     | 0.6667     | 0.2222     | 0.2909     | 0.2909     | 0.3856     |
-| Upstage Embedding                     | **0.4211** | **0.8421** | **0.2807** | **0.3509** | **0.3509** | **0.4743** |
+| Upstage Embedding                     | 0.4211     | 0.8421     | 0.2807     | **0.3509** | **0.3509** | 0.4743     |
 | paraphrase-multilingual-MiniLM-L12-v2 | 0.2061     | 0.4123     | 0.1374     | 0.1740     | 0.1740     | 0.2340     |
 | openai_embed_3_small                  | 0.3640     | 0.7281     | 0.2427     | 0.3026     | 0.3026     | 0.4097     |
 | ko-sroberta-multitask                 | 0.2939     | 0.5877     | 0.1959     | 0.2500     | 0.2500     | 0.3351     |
@@ -53,7 +53,7 @@ With [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG), you can make this k
 | Cohere embed-multilingual-v3.0        | 0.2076     | 0.6228     | 0.1246     | 0.1640     | 0.1640     | 0.2731     |
 | openai ada 002                        | 0.2602     | 0.7807     | 0.1561     | 0.2139     | 0.2139     | 0.3486     |
 | multilingual-e5-large-instruct        | 0.2544     | 0.7632     | 0.1526     | 0.2194     | 0.2194     | 0.3487     |
-| Upstage Embedding                     | **0.2982** | **0.8947** | **0.1789** | **0.2237** | **0.2237** | **0.3822** |
+| Upstage Embedding                     | 0.2982     | 0.8947     | 0.1789     | **0.2237** | **0.2237** | 0.3822     |
 | paraphrase-multilingual-MiniLM-L12-v2 | 0.1637     | 0.4912     | 0.0982     | 0.1437     | 0.1437     | 0.2264     |
 | openai_embed_3_small                  | 0.2690     | 0.8070     | 0.1614     | 0.2148     | 0.2148     | 0.3553     |
 | ko-sroberta-multitask                 | 0.2164     | 0.6491     | 0.1298     | 0.1697     | 0.1697     | 0.2835     |
@@ -72,11 +72,11 @@ With [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG), you can make this k
 | Cohere embed-multilingual-v3.0        | 0.1324     | 0.7281     | 0.0728     | 0.1150     | 0.1150     | 0.2473     |
 | openai ada 002                        | 0.1563     | 0.8596     | 0.0860     | 0.1051     | 0.1051     | 0.2673     |
 | multilingual-e5-large-instruct        | 0.1483     | 0.8158     | 0.0816     | 0.0980     | 0.0980     | 0.2520     |
-| Upstage Embedding                     | **0.1707** | **0.9386** | **0.0939** | 0.1078     | 0.1078     | 0.2848     |
+| Upstage Embedding                     | 0.1707     | 0.9386     | 0.0939     | 0.1078     | 0.1078     | 0.2848     |
 | paraphrase-multilingual-MiniLM-L12-v2 | 0.1053     | 0.5789     | 0.0579     | 0.0961     | 0.0961     | 0.2006     |
 | openai_embed_3_small                  | 0.1547     | 0.8509     | 0.0851     | 0.0984     | 0.0984     | 0.2593     |
 | ko-sroberta-multitask                 | 0.1276     | 0.7018     | 0.0702     | 0.0986     | 0.0986     | 0.2275     |
-| openai_embed_3_large                  | 0.1643     | 0.9035     | 0.0904     | 0.1180     | 0.1180     | **0.2855** |
+| openai_embed_3_large                  | 0.1643     | 0.9035     | 0.0904     | 0.1180     | 0.1180     | 0.2855     |
 | KU-HIAI-ONTHEIT-large-v1              | 0.1707     | 0.9386     | 0.0939     | 0.1105     | 0.1105     | **0.2860** |
 | KU-HIAI-ONTHEIT-large-v1.1            | **0.1722** | **0.9474** | **0.0947** | 0.1033     | 0.1033     | 0.2822     |
 | kf-deberta-multitask                  | 0.1388     | 0.7632     | 0.0763     | 0.1        | 0.1        | 0.2422     |
