@@ -6,6 +6,9 @@ With [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG), you can make this k
 
 # Result
 
+`KU-HIAI-ONTHEIT-large-v1` and `KU-HIAI-ONTHEIT-large-v1.1` are private models. You have to ask the permission to access to the model author.
+You can contact to [yjoonjang](https://github.com/yjoonjang).
+
 ### Top-k 1
 
 | Model name                            | F1         | Recall     | Precision  | mAP        | mRR        | NDCG       |
