@@ -23,3 +23,4 @@ node_lines:
             - KU-HIAI-ONTHEIT-large-v1.1 # KU-HIAI-ONTHEIT/ontheit-large-v1_1 (private)
             - kf-deberta-multitask # upskyy/kf-deberta-multitask
             - gte-multilingual-base # Alibaba-NLP/gte-multilingual-base
+            - bge-m3 # BAAI/bge-m3

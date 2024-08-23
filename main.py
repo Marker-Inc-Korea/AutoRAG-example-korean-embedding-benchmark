@@ -38,6 +38,7 @@ def main(config, qa_data_path, corpus_data_path, project_dir):
     autorag.embedding_models['KU-HIAI-ONTHEIT-large-v1'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="KU-HIAI-ONTHEIT/ontheit-large-v1")
     autorag.embedding_models['kf-deberta-multitask'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="upskyy/kf-deberta-multitask")
     autorag.embedding_models['gte-multilingual-base'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="Alibaba-NLP/gte-multilingual-base", trust_remote_code=True)
+    autorag.embedding_models['bge-m3'] = autorag.LazyInit(HuggingFaceEmbedding, model_name="BAAI/bge-m3", trust_remote_code=True)
 
     if not os.path.exists(project_dir):
         os.makedirs(project_dir)
