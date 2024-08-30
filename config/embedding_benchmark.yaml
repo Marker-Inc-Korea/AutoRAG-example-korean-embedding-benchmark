@@ -24,3 +24,4 @@ node_lines:
             - kf-deberta-multitask # upskyy/kf-deberta-multitask
             - gte-multilingual-base # Alibaba-NLP/gte-multilingual-base
             - bge-m3 # BAAI/bge-m3
+            - KoE5-ft-open-v1
